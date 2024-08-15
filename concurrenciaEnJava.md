@@ -1,3 +1,6 @@
+# Métodos de sincronización en Java
+
+## 1. Synchronized
 ### a) Introducción
 
 Java incorpora el mecanismo `synchronized` para garantizar la atomicidad y exclusión mutua en entornos concurrentes. Utilizando la palabra clave `synchronized` junto con un lock implícito, Java permite acceso exclusivo al código que manipula datos compartidos, asegurando que los métodos que acceden a estos datos estén sincronizados sobre el mismo lock. Cada objeto en Java posee un lock, heredado de la clase `Object`. Este mecanismo asegura que solo un hilo a la vez pueda ejecutar un bloque de código sincronizado, lo que evita condiciones de carrera y garantiza la consistencia de los datos compartidos.
